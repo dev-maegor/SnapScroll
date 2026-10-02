@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SnapScroll Full Page Screenshot",
+  "version": "20.3.0",
+  "description": "Capture and export a complete scrollable webpage as PNG, JPG, or selectable-text PDF.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "action": {
+    "default_title": "SnapScroll",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

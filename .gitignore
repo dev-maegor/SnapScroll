@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build/package artifacts
+dist/
+build/
+release/
+*.zip
